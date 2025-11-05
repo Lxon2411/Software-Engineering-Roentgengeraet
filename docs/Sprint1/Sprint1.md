@@ -3,9 +3,11 @@
 
 ## Sprint Planning
 Im Rahmen des ersten Sprints sollen folgende Requirements implementiert werden:
-- Req. 1.1
-- Req. 2.1
-- Req. 3.1
+- Req. 1.1 (funktional)
+- Req. 2.1 (funktional)
+- Req. 3.1 (funktional)
+- Req. 1.1 (nicht-funktional)
+- Req. 1.3 (nicht-funktional)
 
 Der Fokus dabei liegt auf der Implementierung der Grundfunktionalitäten, die für die weitere Entwicklung des Projekts essenziell sind.
 

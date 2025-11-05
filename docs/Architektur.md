@@ -40,8 +40,8 @@ Architekturtyp: **Schichten-/Komponentenarchitektur** mit Trennung von Logik, St
 | Steuerungslogik | GUI             | Setzt die Status-LED auf grün oder rot                                              | ```IBenutzeroberfläche.setzeLED(aktiv: bool)```                    |
 | Steuerungslogik | GUI             | Fügt eine Meldung dem Logfeld hinzu                                                 | ```IBenutzeroberfläche.logNachricht(text: str)```                  |
 | Steuerungslogik | GUI             | Zeigt eine Messagebox (error/info/warning) an                                       | ```IBenutzeroberfläche.zeigeMessagebox(tex: str, typ: str)```      |
-| Steuerungslogik | System          | Erzeugt einen akustischen Signalton (plattformabhängig, z.B. ```winsound.Beep()```) | ```ISystemZugriff.spieleSignalton(frequenz: int, dauer: int)```    |
-| Steuerungslogik | System          | Liefert die aktuelle Zeit (z.B. ```time.time()```)                                  | ```ISystemZugriff.leseSystemzeit():float```                        |
+| Steuerungslogik | Systemschicht   | Erzeugt einen akustischen Signalton (plattformabhängig, z.B. ```winsound.Beep()```) | ```ISystemZugriff.spieleSignalton(frequenz: int, dauer: int)```    |
+| Steuerungslogik | Systemschicht   | Liefert die aktuelle Zeit (z.B. ```time.time()```)                                  | ```ISystemZugriff.leseSystemzeit():float```                        |
 
 ## Technologiestack
 | **Kategorie**            | **Technologie/Tool**                                                         | Begründung                                                                                                                                            |
