@@ -9,7 +9,6 @@ Im Folgenden sind erste, exemplarische Entwürfe eines Klassendiagramms, Sequenz
 ## Zustandsdiagramm
 ![Zustandsdiagramm](images/Zustandsdiagramm.png)
 
-## Aktualisiertes Komponentendiagramm
-Das Komponentendiagramm wurde um Schnittstellen und Klassen ergänzt:
-![Komponentendiagramm](images/Komponentendiagramm.png)
+## Kommunikationsdiagramm
+![Kommunikationsdiagramm](images/Kommunikationsdiagramm.png)
 

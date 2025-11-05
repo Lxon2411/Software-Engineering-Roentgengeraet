@@ -13,8 +13,9 @@ von Leon Wühr
 5. **Status- und Fortschrittsanzeige**
 
 ## Gesamtdokumentation
-
+[Gesamtdokumentation](./Gesamtdokumentation.md)
 ## Benutzerhandbuch
+[Benutzerhandbuch](./Benutzerhandbuch.md)
 
 ## Installation & Ausführung
 Es gibt zwei verschiedene Möglichkeiten, das Projekt zum Laufen zu bringen:
@@ -42,5 +43,5 @@ Es gibt zwei verschiedene Möglichkeiten, das Projekt zum Laufen zu bringen:
    ```cmd
    pip install -r requirements.txt
    ```
-   - In der Python IDE (z.B. **PyCharm**) muss ein **Python-Interpreter** konfiguriert sein (*z.B. unter "File → Settings → Project → Python Interpreter")
+   - In der Python IDE (z.B. **PyCharm**) muss ein **Python-Interpreter** konfiguriert sein (*z.B. unter "File → Settings → Project → Python Interpreter"*)
 

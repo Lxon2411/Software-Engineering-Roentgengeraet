@@ -27,4 +27,6 @@ note right of Strahlung_beendet
   LED = rot
 end note
 
+Strahlung_beendet -->  [*]
+
 @enduml

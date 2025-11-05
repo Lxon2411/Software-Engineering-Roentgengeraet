@@ -1,0 +1,25 @@
+@startuml
+title Kommunikationsdiagramm – Röntgengerät Steuerung
+
+actor User
+participant "RadiationUI" as UI
+participant "RadiationController" as Ctrl
+participant "StatusLED" as LED
+participant "System (Timer/Sound)" as Sys
+
+User -> UI : 1. Klick auf "Strahlung starten"
+UI -> Ctrl : 2. toggle_radiation()
+Ctrl -> UI : 3. Eingabe prüfen (max_duration)
+Ctrl -> LED : 4. set_on()
+Ctrl -> UI : 5. Button-Text ändern
+Ctrl -> UI : 6. log_message("Strahlung gestartet")
+Ctrl -> Sys : 7. Timer starten (100 ms)
+Sys -> Ctrl : 8. update_timer()
+Ctrl -> UI : 9. Fortschrittsanzeige aktualisieren
+Ctrl -> UI : 10. Zeitlabel aktualisieren
+Ctrl -> Sys : 11. prüfen (elapsed >= max_duration?)
+Ctrl -> LED : 12. set_off()
+Ctrl -> UI : 13. Warnmeldung anzeigen
+Ctrl -> Sys : 14. akustisches Signal (winsound.Beep)
+
+@enduml

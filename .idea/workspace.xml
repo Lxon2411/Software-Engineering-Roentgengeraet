@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fd40a8-e222-44c5-81ef-5934050a56c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Benutzerhandbuch.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gesamtdokumentation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Sprint1/Traceability-Matrix1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/kommunikationsdiagramm.plantuml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gesamtdokumentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/Gesamtdokumentation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Design1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Design1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Implementierung1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Implementierung1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Sprint1/images/Zustandsdiagramm.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/images/Zustandsdiagramm.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/zustandsdiagramm.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/zustandsdiagramm.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Traceability-Matrix.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Traceability-Matrix.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/WUEHR_LE/Software-Engineering-Roentengeraet/docs/Sprint1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/WUEHR_LE/Software-Engineering-Roentengeraet/docs/Sprint1/images",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\WUEHR_LE\Software-Engineering-Roentengeraet\docs\Sprint1" />
