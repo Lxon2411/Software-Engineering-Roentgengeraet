@@ -12,3 +12,11 @@ Im Folgenden sind erste, exemplarische Entwürfe eines Klassendiagramms, Sequenz
 ## Kommunikationsdiagramm
 ![Kommunikationsdiagramm](images/Kommunikationsdiagramm.png)
 
+## Designpatterns
+
+| Pattern                     | Wo im Projekt                                                                     | Grund                                                                        |
+|-----------------------------|-----------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| MVC (Model-View-Controller) | GUI (View), Controller, System (Model)                                            | Trennung von Darstellung, Logik und Daten                                    |
+| Proxy                       | Systemschicht                                                                     | Systemschicht kapselt Zugriff auf OS-/Hardwarefunktionen (z.B. Sound, Timer) |
+| Observer                    | ```update_timer()```                                                              | GUI beobachtet Änderungen vom Controller                                     |
+| Facade                      | GUI spricht nur über ```RadiationController```, nicht direkt mit Systemfunktionen | Vereinfacht Schnittstellen                                                   |

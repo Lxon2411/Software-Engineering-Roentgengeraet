@@ -1,1 +1,1 @@
-MAX_DURATION = 120 # Maximal erlaubte Strahlungsdauer in Sekunden
+MAX_DURATION = 120  # Maximal erlaubte Strahlungsdauer in Sekunden

@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30fd40a8-e222-44c5-81ef-5934050a56c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_11_20_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_11_20__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Architektur.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architektur.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Sprint1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Sprint1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Traceability-Matrix1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Traceability-Matrix1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Traceability-Matrix.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Traceability-Matrix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Design1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Design1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/radiation_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/status_led.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/status_led.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ui.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +51,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anwender\Software-Engineering-Roentengeraet\src\controller" />
+      <recent name="C:\Users\Anwender\Software-Engineering-Roentengeraet\src\gui" />
+      <recent name="C:\Users\Anwender\Software-Engineering-Roentengeraet\src\system" />
       <recent name="C:\Users\Anwender\Software-Engineering-Roentengeraet\src" />
       <recent name="C:\Users\Anwender\Software-Engineering-Roentengeraet\" />
     </key>
