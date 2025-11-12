@@ -1,7 +1,6 @@
 import threading
 import time
 
-from src.config import MAX_DURATION
 
 class RadiationController:
     def __init__(self, ui):
@@ -17,13 +16,19 @@ class RadiationController:
         self.thread.start()
 
     def _run_radiation(self, duration):
-        for i in range(duration +1):
-            if not self.running:
+        start_time = time.time()
+        while self.running:
+            elapsed = time.time() - start_time
+            if elapsed >= duration:
                 break
-            self.ui.update_progress(i, duration)
-            time.sleep(1)
+            self.ui.update_progress(elapsed, duration)
+            time.sleep(0.02)
+        self.ui.update_progress(elapsed, duration)
+        self.ui.show_finished_message(duration)
         self.running = False
         self.ui.reset_ui()
+        self.stop()
+
 
     def stop(self):
         self.running = False

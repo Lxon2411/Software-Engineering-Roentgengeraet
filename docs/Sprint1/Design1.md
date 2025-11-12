@@ -20,3 +20,5 @@ Im Folgenden sind erste, exemplarische Entwürfe eines Klassendiagramms, Sequenz
 | Proxy                       | Systemschicht                                                                     | Systemschicht kapselt Zugriff auf OS-/Hardwarefunktionen (z.B. Sound, Timer) |
 | Observer                    | ```update_timer()```                                                              | GUI beobachtet Änderungen vom Controller                                     |
 | Facade                      | GUI spricht nur über ```RadiationController```, nicht direkt mit Systemfunktionen | Vereinfacht Schnittstellen                                                   |
+
+

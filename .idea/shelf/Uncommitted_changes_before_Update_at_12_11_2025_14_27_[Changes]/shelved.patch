@@ -1,0 +1,158 @@
+Index: src/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import tkinter as tk\r\nfrom src.gui.ui import RadiationUI\r\n\r\n\r\ndef main():\r\n    root = tk.Tk()\r\n    app = RadiationUI(root)\r\n    root.mainloop()\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main.py b/src/main.py
+--- a/src/main.py	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
++++ b/src/main.py	(date 1762879623121)
+@@ -10,3 +10,4 @@
+ 
+ if __name__ == "__main__":
+     main()
++
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38__Changes_.xml	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
++++ /dev/null	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_30_10_2025_18_38_[Changes]" date="1761846034498" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 30.10.2025 18:38 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02_[Changes]/shelved.patch	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
++++ /dev/null	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
+@@ -1,38 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"30fd40a8-e222-44c5-81ef-5934050a56c3\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/docs/Sprint1/images/Klassendiagramm.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/klassendiagramm.plantuml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/komponentendiagramm.plantuml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/sequenzdiagramm.plantuml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/zustandsdiagramm.plantuml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/docs/Traceability-Matrix.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Architektur.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Architektur.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Sprint1/Design1.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Sprint1/Design1.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Sprint1/Implementierung1.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Sprint1/Implementierung1.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Sprint1/Komponentendiagramm.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Sprint1/images/Komponentendiagramm.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Sprint1/Sequenzdiagramm.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Sprint1/images/Sequenzdiagramm.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Sprint1/Sprint1.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Sprint1/Sprint1.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Sprint1/Zustandsdiagramm.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Sprint1/images/Zustandsdiagramm.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/config.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/config.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/controller.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/controller.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/status_led.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/status_led.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ui.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/ui.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 2\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"34BumuN5kwRNYPmWtAu4SdBInRZ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.main.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"last_opened_file_path\": \"C:/Users/WUEHR_LE/Software-Engineering-Roentengeraet/docs/Sprint1\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\WUEHR_LE\\Software-Engineering-Roentengeraet\\docs\\Sprint1\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\WUEHR_LE\\Software-Engineering-Roentengeraet\\docs\\Sprint1\" />\r\n      <recent name=\"C:\\Users\\WUEHR_LE\\Software-Engineering-Roentengeraet\\docs\\Sprint1\\images\" />\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\src\" />\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"30fd40a8-e222-44c5-81ef-5934050a56c3\" name=\"Changes\" comment=\"\" />\r\n      <created>1760699448600</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1760699448600</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"origin/dev\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 61992625ca7d1fcafe88c0d4049ea1303d6ef0ec)
+-+++ b/.idea/workspace.xml	(date 1761893855623)
+-@@ -5,27 +5,7 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="30fd40a8-e222-44c5-81ef-5934050a56c3" name="Changes" comment="">
+--      <change afterPath="$PROJECT_DIR$/docs/Sprint1/images/Klassendiagramm.png" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/klassendiagramm.plantuml" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/komponentendiagramm.plantuml" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/sequenzdiagramm.plantuml" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/docs/Sprint1/plantUML_scripts/zustandsdiagramm.plantuml" afterDir="false" />
+--      <change afterPath="$PROJECT_DIR$/docs/Traceability-Matrix.md" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/docs/Architektur.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architektur.md" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Design1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Design1.md" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Implementierung1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Implementierung1.md" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Komponentendiagramm.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/images/Komponentendiagramm.png" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Sequenzdiagramm.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/images/Sequenzdiagramm.png" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Sprint1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Sprint1.md" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Zustandsdiagramm.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/images/Zustandsdiagramm.png" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/status_led.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/status_led.py" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui.py" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38_[Changes]/shelved.patch	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
++++ /dev/null	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
+@@ -1,26 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"30fd40a8-e222-44c5-81ef-5934050a56c3\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Architektur.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Architektur.md\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"34BumuN5kwRNYPmWtAu4SdBInRZ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"main\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"reference.settingsdialog.project.grazie\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\src\" />\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"30fd40a8-e222-44c5-81ef-5934050a56c3\" name=\"Changes\" comment=\"\" />\r\n      <created>1760699448600</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1760699448600</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 4edca4ec81d27008aa3284f7af7580be31661dd7)
+-+++ b/.idea/workspace.xml	(date 1761766127818)
+-@@ -6,7 +6,6 @@
+-   <component name="ChangeListManager">
+-     <list default="true" id="30fd40a8-e222-44c5-81ef-5934050a56c3" name="Changes" comment="">
+-       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/docs/Architektur.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Architektur.md" afterDir="false" />
+-     </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-@@ -34,6 +33,7 @@
+-   <component name="PropertiesComponent"><![CDATA[{
+-   "keyToString": {
+-     "RunOnceActivity.ShowReadmeOnStart": "true",
+-+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-     "git-widget-placeholder": "main",
+-     "ignore.virus.scanning.warn.message": "true",
+-     "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02__Changes_.xml	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
++++ /dev/null	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_31_10_2025_08_02_[Changes]" date="1761894175317" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 31.10.2025 08:02 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"30fd40a8-e222-44c5-81ef-5934050a56c3\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_11_20_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_11_20__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/docs/Sprint1/Design1.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/docs/Sprint1/Design1.md\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/config.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/config.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/controller.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/controller/radiation_controller.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/status_led.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/system/status_led.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ui.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/gui/ui.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"34BumuN5kwRNYPmWtAu4SdBInRZ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anwender/Software-Engineering-Roentengeraet/docs/Sprint1/images&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\src\\controller\" />\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\src\\gui\" />\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\src\\system\" />\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\src\" />\r\n      <recent name=\"C:\\Users\\Anwender\\Software-Engineering-Roentengeraet\\\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"30fd40a8-e222-44c5-81ef-5934050a56c3\" name=\"Changes\" comment=\"\" />\r\n      <created>1760699448600</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1760699448600</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1e853de150494cdc8f2405c49ae4314df9435de2)
++++ b/.idea/workspace.xml	(date 1762879900369)
+@@ -5,17 +5,12 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="30fd40a8-e222-44c5-81ef-5934050a56c3" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Software-Engineering-Roentengeraet.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_11_20_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_11_20__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_10_2025_18_38__Changes_.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_10_2025_08_02__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/docs/Sprint1/Design1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Sprint1/Design1.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/radiation_controller.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/status_led.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/status_led.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/ui.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -80,7 +75,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="main" />
++                        <option value="origin/main" />
+                       </list>
+                     </value>
+                   </entry>
