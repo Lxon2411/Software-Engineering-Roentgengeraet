@@ -19,7 +19,7 @@
 |    RÖNTGENGERÄT STRAHLUNGSDAUER SIMULATION       |
 +--------------------------------------------------+
 | Einstellung Strahlungsdauer: [  45  ] Sekunden   |
-| (Wertebereich: 1 - 120 sec)                     |
+| (Wertebereich: 1 - 120 sec)                      |
 |                                                  |
 | [ Start Strahlung ]   [ NOT-AUS (STOP) ]         |
 |                                                  |

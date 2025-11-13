@@ -1,8 +1,11 @@
+import os
+import sys
 import tkinter as tk
-from gui.ui import RadiationUI
-
-from controller.controller import RadiationController
 from tkinter import PhotoImage
+
+from src.gui.ui import RadiationUI
+from src.controller.controller import RadiationController
+
 
 def main():
     root = tk.Tk()
@@ -10,7 +13,9 @@ def main():
     root.geometry("500x550")
     root.resizable(False, False)
 
-    icon = PhotoImage(file="icon.png")
+    BASE_DIR = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    icon_path = os.path.join(BASE_DIR, "icon.png")
+    icon = PhotoImage(file=icon_path)
     root.iconphoto(False, icon)
 
     ui = RadiationUI(root, None)

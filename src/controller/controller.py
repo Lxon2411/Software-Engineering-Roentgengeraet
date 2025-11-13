@@ -29,6 +29,5 @@ class RadiationController:
         self.ui.reset_ui()
         self.stop()
 
-
     def stop(self):
         self.running = False

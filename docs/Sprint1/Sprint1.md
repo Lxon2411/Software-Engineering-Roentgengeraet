@@ -1,5 +1,5 @@
 # Sprint 1
-**Zeitraum: 01.11.2025 bis 06.11.2025**
+**Zeitraum: 03.11.2025 bis 13.11.2025**
 
 ## Sprint Planning
 Im Rahmen des ersten Sprints sollen folgende Requirements implementiert werden:
@@ -13,5 +13,5 @@ Der Fokus dabei liegt auf der Implementierung der Grundfunktionalit채ten, die f�
 
 ## Ziel des Sprints
 1. Erstellung einer grundlegenden Projektstruktur in einer Implementierungsumgebung
-2. Vollst채ndige Umsetzung der grundlegenden Teilfunktionalit채ten
-2. Implementierung einer grafischen Benutzeroberfl채che 
+2. Vollst채ndige Umsetzung der grundlegenden Teilfunktionalit채ten 
+3. Implementierung einer grafischen Benutzeroberfl채che 
