@@ -1,9 +1,9 @@
-# Software-Engineering-Roentengeraet
+# Software-Engineering-Roentgengeraet
 Software Engineering Projekt (WS25)
 von Leon Wühr
 
 ## Repository
-[Github Repository](https://github.com/Lxon2411/Software-Engineering-Roentengeraet)
+[Github Repository](https://github.com/Lxon2411/Software-Engineering-Roentgengeraet)
 
 ### Teilfunktionalitäten
 1. **Benutzerdefinierte Eingabe der Strahlungsdauer**
@@ -29,11 +29,11 @@ Es gibt zwei verschiedene Möglichkeiten, das Projekt zum Laufen zu bringen:
       **Hinweis:** Je nach Windows-Systemeinstellung muss beim ersten Start der Hinweis *Die App wurde aus Sicherheitsgründen blockiert* mit *"Trotzdem ausführen"* bestätigt werden.
 2. Alternative: Ausführung des Quellcodes
     ```cmd
-    git clone https://github.com/Lxon2411/Software-Engineering-Roentengeraet.git
+    git clone https://github.com/Lxon2411/Software-Engineering-Roentgengeraet.git
     cd Software-Engineering-Roentgengerät
-    git checkout v1     # Wechsel zu lauffähiger Version nach Sprint 1 (Ausführen in src/Program)
-    git checkout v2     # Wechsel zu lauffähiger Version nach Sprint 2 (Ausführen in src/Program)
-    git checkout v3     # Wechsel zu lauffähiger Version nach Sprint 3 (Ausführen in src/Program)
+    git checkout v1     # Wechsel zu lauffähiger Version nach Sprint 1 (Ausführen in src/main.py)
+    git checkout v2     # Wechsel zu lauffähiger Version nach Sprint 2 (Ausführen in src/main.py)
+    git checkout v3     # Wechsel zu lauffähiger Version nach Sprint 3 (Ausführen in src/main.py)
     cd src
     python main.py
     ```
