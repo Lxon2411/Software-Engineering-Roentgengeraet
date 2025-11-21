@@ -1,5 +1,5 @@
 # Sprint 1
-**Zeitraum: 03.11.2025 bis 13.11.2025**
+**Zeitraum: 03.11.2025 bis 21.11.2025**
 
 ## Sprint Planning
 Im Rahmen des ersten Sprints sollen folgende Requirements implementiert werden:
