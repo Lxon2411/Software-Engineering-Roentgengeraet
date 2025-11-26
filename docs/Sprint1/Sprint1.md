@@ -16,3 +16,7 @@ Der Fokus dabei liegt auf der Implementierung der Grundfunktionalitäten, die f�
 1. Erstellung einer grundlegenden Projektstruktur in einer Implementierungsumgebung
 2. Vollständige Umsetzung der grundlegenden Teilfunktionalitäten 
 3. Implementierung einer grafischen Benutzeroberfläche 
+
+## Abweichungen 
+
+## Gewonnene Erkenntnisse
